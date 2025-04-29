@@ -79,7 +79,7 @@
     max-width: 120rem;
     padding: 0 4rem;
     margin: 0 auto;
-    margin-bottom: 26rem;
+    margin-bottom: 15rem;
   }
   
   .mb-0 {
@@ -100,6 +100,29 @@
   
   .mb-xl {
     margin-bottom: 6rem;
+  }
+
+  #scrollToTopBtn{
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    display: none;
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 50%;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    z-index: 1;
+  }
+
+  #scrollToTopBtn:hover {
+    background-color: var(--primary-color-hover);
+    transform: translateY(-5px);
+    color: var(--white);
   }
   
   @media only screen and (max-width: 1024px) {

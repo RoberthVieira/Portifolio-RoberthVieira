@@ -8,6 +8,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="CSS/extends.css">
 </head>
+
 <body>
     
     <!--Navbar-->
@@ -163,19 +164,26 @@
                     <p>
                         Este é um projeto desenvolvido com React e Next.js, criado para praticar a componetização de interfaces e o uso eficiente de props. O objetivo é construir um website fictício para uma agência digital chamada Agência de Branding e Design Digital -M, que basicamente oferece estratégias de marketing digital.
                     </p>
-                    <a href="https://roberthvieira.github.io/Agencia-design-digital-M/" target="_blank">Ver o projeto &rarr;</a>
+                    <div class="links">
+                        <a href="https://roberthvieira.github.io/Agencia-design-digital-M/" target="_blank">Ver o projeto &rarr;</a>
+                        <a href="https://github.com/RoberthVieira/Agencia-design-digital-M" target="_blank">Acessar repositório &rarr;</a>
+                    </div>
                 </div>
             </li>
             <li class="projects_right-list">
                 <div class="image">
-                    <img src="assets/IMG/Projeto-M.png" alt="Projeto Agencia -M">
+                    <img src="assets/IMG/checklistViagemInteligente.png" alt="Checklist de Viagem Inteligente">
                 </div>
                 <div class="projects_info">
-                    <h3 class="tertiary-title">Agencia de Branding e Design Digital -M</h3>
+                    <h3 class="tertiary-title">Checklist de Viagem Inteligente</h3>
                     <p>
-                        Este é um projeto desenvolvido com React e Next.js, criado para praticar a componetização de interfaces e o uso eficiente de props. O objetivo é construir um website fictício para uma agência digital chamada Agência de Branding e Design Digital -M, que basicamente oferece estratégias de marketing digital.
+                        Projeto em Next.js que cria checklists de viagem personalizados com base no clima da cidade, utilizando a API do OpenWeatherMap. Exibe dados como temperatura e vento, e sugere itens conforme o clima. O usuário pode marcar itens, adicionar novos e salvar múltiplos checklists. Dados são persistidos no localStorage. Utiliza React Hooks, CSS Modules, Lucide React e React Icons.
                     </p>
-                    <a href="https://roberthvieira.github.io/Agencia-design-digital-M/" target="_blank">Ver o projeto &rarr;</a>
+                    <div class="links">
+                        <a href="https://checklist-viagem-inteligente-tc94.vercel.app" target="_blank">Ver o projeto &rarr;</a>
+                        <a href="https://github.com/RoberthVieira/Checklist-Viagem-Inteligente" target="_blank">Acessar repositório &rarr;</a>
+                    </div>
+                    
                 </div>
             </li>
             <li>
@@ -218,7 +226,10 @@
         </div>
     </footer>
 
+    <button id="scrollToTopBtn" title="Voltar ao topo">↑</button>
+
     <!--Scripts-->
     <script src="scripts/index.js"></script>
+    <script src="scripts/btn.js"></script>
 </body>
 </html>

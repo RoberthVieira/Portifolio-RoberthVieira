@@ -29,10 +29,12 @@
 .navbar .navbar_content .nav_links a {
     padding: 1rem;
     display: inline-block;
+    transition: color 0.3s, transform 0.3s;
 }
 
 .navbar .navbar_content .nav_links a:hover{
     color: var(--tertiary-color);
+    transform: scale(1.05); 
 }
 
 .navbar.active{
