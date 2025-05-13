@@ -5,33 +5,25 @@
 .skills .skills_content{
     padding: 6rem 4rem;
     text-align: center;
+    margin: -6rem auto 8rem;
 } 
 
-.skills .skills_content .description{
-    max-width: 56rem;
-    margin: 0 auto 6rem;
-} 
+.skills .skills_content p{
+    margin-bottom: 4rem;
+}
 
-.skills .skills_content ul{
+.skills .skills_content .tech-icons{
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 
-.skills .skills_content ul li{
-    margin-top: 4rem;
+.tech-icons img{
+    transition: transform 0.3s ease;
 }
 
-.skills .skills_content ul li .image-container{
-    padding: 2rem;
-}
-
-.skills .skills_content ul li .image-container img{
-    width: 7rem;
-}
-
-.skills .skills_content ul li h3{
-    font-size: 1.6rem;
-    margin: 2rem 0 1rem;
+.tech-icons img:hover{
+    transform: scale(1.1);
 }
