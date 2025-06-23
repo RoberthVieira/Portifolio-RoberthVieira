@@ -19,7 +19,7 @@ Sou Roberth Vieira, estudante de Análise e Desenvolvimento de Sistemas em Uberl
 - HTML5  
 - CSS3  
 - JavaScript  
-- React.js (em projetos futuros)  
+- React.js (futuras melhorias)  
 - Git & GitHub
 
 ---
