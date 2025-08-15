@@ -1,17 +1,25 @@
 
-# 🧑‍💻 Sobre Mim
+# 📌 Portfólio Pessoal – Roberth Vieira
 
-Sou Roberth Vieira, estudante de Análise e Desenvolvimento de Sistemas em Uberlândia, MG. Apaixonado por tecnologia e desenvolvimento web, estou constantemente buscando aprimorar minhas habilidades em HTML, CSS, JavaScript e React.js.
+Meu portfólio pessoal, desenvolvido para apresentar minhas habilidades em desenvolvimento web, projetos realizados e formas de contato.  
+Este site foi criado com **HTML, CSS e JavaScript**, e serve como vitrine para minha evolução como desenvolvedor.
 
 ---
 
-## 📁 Estrutura do Projeto
+## 👨‍💻 Sobre Mim
+Sou **Roberth Vieira**, estudante de Análise e Desenvolvimento de Sistemas em Uberlândia, MG.  
+Apaixonado por tecnologia e desenvolvimento web, estou sempre explorando novas ferramentas e aprimorando minhas habilidades em **HTML, CSS, JavaScript e React.js**.  
+Meu foco é criar interfaces funcionais, modernas e responsivas.
 
-- **index.html**: Página principal do portfólio.
-- **/assets**: Imagens e ícones utilizados.
-- **/scripts**: Scripts JavaScript para interatividade.
-- **/styles**: Arquivos CSS para estilização.
+---
 
+## 📂 Estrutura do Projeto
+```plaintext
+index.html      # Página principal do portfólio  
+/assets         # Imagens e ícones utilizados no projeto  
+/scripts        # Scripts JavaScript para interatividade  
+/styles         # Arquivos CSS para estilização 
+```
 ---
 
 ## 🚀 Tecnologias Utilizadas
